@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Cardapio>
+  <Prato id="1">
+    <Nome>Filé Mignon ao Molho Madeira</Nome>
+    <Descricao>Filé mignon grelhado servido com molho madeira e champignons</Descricao>
+    <Ingredientes>Filé mignon, vinho madeira, champignon, cebola, alho, manteiga</Ingredientes>
+    <Preco>69.90</Preco>
+    <Calorias>750</Calorias>
+    <TempoPreparo>30</TempoPreparo>
+  </Prato>
+
+  <Prato id="2">
+    <Nome>Lasanha à Bolonhesa</Nome>
+    <Descricao>Clássica lasanha com carne moída, molho de tomate e queijo gratinado</Descricao>
+    <Ingredientes>Carne moída, massa de lasanha, molho de tomate, queijo mussarela, parmesão</Ingredientes>
+    <Preco>44.50</Preco>
+    <Calorias>920</Calorias>
+    <TempoPreparo>45</TempoPreparo>
+  </Prato>
+
+  <Prato id="3">
+    <Nome>Risoto de Camarão</Nome>
+    <Descricao>Risoto cremoso de arroz arbório com camarões salteados</Descricao>
+    <Ingredientes>Arroz arbório, camarão, creme de leite, vinho branco, parmesão, alho-poró</Ingredientes>
+    <Preco>58.00</Preco>
+    <Calorias>680</Calorias>
+    <TempoPreparo>35</TempoPreparo>
+  </Prato>
+
+  <Prato id="4">
+    <Nome>Salada Caesar</Nome>
+    <Descricao>Salada leve com alface romana, frango grelhado, croutons e molho Caesar</Descricao>
+    <Ingredientes>Alface romana, frango grelhado, croutons, parmesão, molho Caesar</Ingredientes>
+    <Preco>32.00</Preco>
+    <Calorias>420</Calorias>
+    <TempoPreparo>20</TempoPreparo>
+  </Prato>
+
+  <Prato id="5">
+    <Nome>Pizza Margherita</Nome>
+    <Descricao>Pizza tradicional italiana com molho de tomate, mussarela e manjericão fresco</Descricao>
+    <Ingredientes>Massa de pizza, molho de tomate, queijo mussarela, manjericão</Ingredientes>
+    <Preco>49.90</Preco>
+    <Calorias>850</Calorias>
+    <TempoPreparo>25</TempoPreparo>
+  </Prato>
+</Cardapio>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE imobiliaria [
+  <!ELEMENT imobiliaria (imovel+)>
+  <!ELEMENT imovel (descricao, proprietario, endereco, caracteristicas, valor)>
+  <!ELEMENT descricao (#PCDATA)>
+  <!ELEMENT proprietario (nome, (email | telefone)+)>
+  <!ELEMENT nome (#PCDATA)>
+  <!ELEMENT email (#PCDATA)>
+  <!ELEMENT telefone (#PCDATA)>
+  <!ELEMENT endereco (rua, bairro, cidade, numero?)>
+  <!ELEMENT rua (#PCDATA)>
+  <!ELEMENT bairro (#PCDATA)>
+  <!ELEMENT cidade (#PCDATA)>
+  <!ELEMENT numero (#PCDATA)>
+  <!ELEMENT caracteristicas (tamanho, numQuartos, numBanheiros)>
+  <!ELEMENT tamanho (#PCDATA)>
+  <!ELEMENT numQuartos (#PCDATA)>
+  <!ELEMENT numBanheiros (#PCDATA)>
+  <!ELEMENT valor (#PCDATA)>
+]>
+<imobiliaria>
+  <imovel>
+    <descricao>Apartamento com vista para o mar</descricao>
+    <proprietario>
+      <nome>João Silva</nome>
+      <telefone>11988887777</telefone>
+      <telefone>11999996666</telefone>
+      <email>joao@gmail.com</email>
+    </proprietario>
+    <endereco>
+      <rua>Av. Atlântica</rua>
+      <bairro>Copacabana</bairro>
+      <cidade>Rio de Janeiro</cidade>
+      <numero>1020</numero>
+    </endereco>
+    <caracteristicas>
+      <tamanho>90m²</tamanho>
+      <numQuartos>3</numQuartos>
+      <numBanheiros>2</numBanheiros>
+    </caracteristicas>
+    <valor>950000</valor>
+  </imovel>
+
+  <imovel>
+    <descricao>Casa térrea com quintal amplo</descricao>
+    <proprietario>
+      <nome>Maria Oliveira</nome>
+      <telefone>21988885555</telefone>
+    </proprietario>
+    <endereco>
+      <rua>Rua das Palmeiras</rua>
+      <bairro>Jardins</bairro>
+      <cidade>São Paulo</cidade>
+      <numero>45</numero>
+    </endereco>
+    <caracteristicas>
+      <tamanho>120m²</tamanho>
+      <numQuartos>4</numQuartos>
+      <numBanheiros>3</numBanheiros>
+    </caracteristicas>
+    <valor>1300000</valor>
+  </imovel>
+
+  <imovel>
+    <descricao>Studio moderno no centro</descricao>
+    <proprietario>
+      <nome>Claudio Lucas</nome>
+      <email>lucas;@email.com</email>
+    </proprietario>
+    <endereco>
+      <rua>Rua Augusta</rua>
+      <bairro>Centro</bairro>
+      <cidade>São Paulo</cidade>
+      <numero>300</numero>
+    </endereco>
+    <caracteristicas>
+      <tamanho>35m²</tamanho>
+      <numQuartos>1</numQuartos>
+      <numBanheiros>1</numBanheiros>
+    </caracteristicas>
+    <valor>400000</valor>
+  </imovel>
+
+  <imovel>
+    <descricao>Chácara com área verde</descricao>
+    <proprietario>
+      <nome>Rogério Matos</nome>
+      <telefone>31999998888</telefone>
+    </proprietario>
+    <endereco>
+      <rua>Estrada dos Lagos</rua>
+      <bairro>Zona Rural</bairro>
+      <cidade>Belo Horizonte</cidade>
+      <!-- sem número -->
+    </endereco>
+    <caracteristicas>
+      <tamanho>2000m²</tamanho>
+      <numQuartos>5</numQuartos>
+      <numBanheiros>4</numBanheiros>
+    </caracteristicas>
+    <valor>1800000</valor>
+  </imovel>
+
+  <imovel>
+    <descricao>Kitnet mobiliada</descricao>
+    <proprietario>
+      <nome>Fernanda Souza</nome>
+      <telefone>21999997777</telefone>
+      <email>fernanda@email.com</email>
+    </proprietario>
+    <endereco>
+      <rua>Rua das Laranjeiras</rua>
+      <bairro>Flamengo</bairro>
+      <cidade>Rio de Janeiro</cidade>
+      <numero>150</numero>
+    </endereco>
+    <caracteristicas>
+      <tamanho>28m²</tamanho>
+      <numQuartos>1</numQuartos>
+      <numBanheiros>1</numBanheiros>
+    </caracteristicas>
+    <valor>250000</valor>
+  </imovel>
+</imobiliaria>

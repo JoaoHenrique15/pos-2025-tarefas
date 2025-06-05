@@ -34,7 +34,7 @@
       <numero>1020</numero>
     </endereco>
     <caracteristicas>
-      <tamanho>90m²</tamanho>
+      <tamanho>90</tamanho>
       <numQuartos>3</numQuartos>
       <numBanheiros>2</numBanheiros>
     </caracteristicas>
@@ -54,7 +54,7 @@
       <numero>45</numero>
     </endereco>
     <caracteristicas>
-      <tamanho>120m²</tamanho>
+      <tamanho>120</tamanho>
       <numQuartos>4</numQuartos>
       <numBanheiros>3</numBanheiros>
     </caracteristicas>
@@ -74,7 +74,7 @@
       <numero>300</numero>
     </endereco>
     <caracteristicas>
-      <tamanho>35m²</tamanho>
+      <tamanho>35</tamanho>
       <numQuartos>1</numQuartos>
       <numBanheiros>1</numBanheiros>
     </caracteristicas>
@@ -91,7 +91,6 @@
       <rua>Estrada dos Lagos</rua>
       <bairro>Zona Rural</bairro>
       <cidade>Belo Horizonte</cidade>
-      <!-- sem número -->
     </endereco>
     <caracteristicas>
       <tamanho>2000m²</tamanho>
@@ -115,7 +114,7 @@
       <numero>150</numero>
     </endereco>
     <caracteristicas>
-      <tamanho>28m²</tamanho>
+      <tamanho>28</tamanho>
       <numQuartos>1</numQuartos>
       <numBanheiros>1</numBanheiros>
     </caracteristicas>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cardapio xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:noNamespaceSchemaLocation="cardapio.xsd">
+
+  <prato id="1">
+    <nome>Filé Mignon ao Molho Madeira</nome>
+    <descricao>Filé mignon grelhado servido com molho madeira e champignons</descricao>
+    <ingredientes>
+      <ingrediente>Filé mignon</ingrediente>
+      <ingrediente>Vinho madeira</ingrediente>
+      <ingrediente>Champignon</ingrediente>
+      <ingrediente>Cebola</ingrediente>
+      <ingrediente>Alho</ingrediente>
+      <ingrediente>Manteiga</ingrediente>
+    </ingredientes>
+    <preco moeda="BRL">69.90</preco>
+    <calorias>750</calorias>
+    <tempoPreparo>30</tempoPreparo>
+  </prato>
+
+  <prato id="2">
+    <nome>Lasanha à Bolonhesa</nome>
+    <descricao>Clássica lasanha com carne moída, molho de tomate e queijo gratinado</descricao>
+    <ingredientes>
+      <ingrediente>Carne moída</ingrediente>
+      <ingrediente>Massa de lasanha</ingrediente>
+      <ingrediente>Molho de tomate</ingrediente>
+      <ingrediente>Queijo mussarela</ingrediente>
+      <ingrediente>Parmesão</ingrediente>
+    </ingredientes>
+    <preco moeda="BRL">44.50</preco>
+    <calorias>920</calorias>
+    <tempoPreparo>45</tempoPreparo>
+  </prato>
+
+  <prato id="3">
+    <nome>Risoto de Camarão</nome>
+    <descricao>Risoto cremoso de arroz arbório com camarões salteados</descricao>
+    <ingredientes>
+      <ingrediente>Arroz arbório</ingrediente>
+      <ingrediente>Camarão</ingrediente>
+      <ingrediente>Creme de leite</ingrediente>
+      <ingrediente>Vinho branco</ingrediente>
+      <ingrediente>Parmesão</ingrediente>
+      <ingrediente>Alho-poró</ingrediente>
+    </ingredientes>
+    <preco moeda="BRL">58.00</preco>
+    <calorias>680</calorias>
+    <tempoPreparo>35</tempoPreparo>
+  </prato>
+
+  <prato id="4">
+    <nome>Salada Caesar</nome>
+    <descricao>Salada leve com alface romana, frango grelhado, croutons e molho Caesar</descricao>
+    <ingredientes>
+      <ingrediente>Alface romana</ingrediente>
+      <ingrediente>Frango grelhado</ingrediente>
+      <ingrediente>Croutons</ingrediente>
+      <ingrediente>Parmesão</ingrediente>
+      <ingrediente>Molho Caesar</ingrediente>
+    </ingredientes>
+    <preco moeda="BRL">32.00</preco>
+    <calorias>420</calorias>
+    <tempoPreparo>20</tempoPreparo>
+  </prato>
+
+  <prato id="5">
+    <nome>Pizza Margherita</nome>
+    <descricao>Pizza tradicional italiana com molho de tomate, mussarela e manjericão fresco</descricao>
+    <ingredientes>
+      <ingrediente>Massa de pizza</ingrediente>
+      <ingrediente>Molho de tomate</ingrediente>
+      <ingrediente>Queijo mussarela</ingrediente>
+      <ingrediente>Manjericão</ingrediente>
+    </ingredientes>
+    <preco moeda="BRL">49.90</preco>
+    <calorias>850</calorias>
+    <tempoPreparo>25</tempoPreparo>
+  </prato>
+
+</cardapio>

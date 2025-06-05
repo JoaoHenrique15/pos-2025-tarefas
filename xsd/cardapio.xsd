@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <!-- Elemento raiz -->
+  <xs:element name="cardapio">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="prato" type="PratoType" minOccurs="1" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+  <!-- Tipo complexo para o elemento prato -->
+  <xs:complexType name="PratoType">
+    <xs:sequence>
+      <xs:element name="nome" type="xs:string"/>
+      <xs:element name="descricao" type="xs:string"/>
+      <xs:element name="ingredientes">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="ingrediente" type="xs:string" minOccurs="1" maxOccurs="unbounded"/>
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="preco">
+        <xs:complexType>
+          <xs:simpleContent>
+            <xs:extension base="PrecoType">
+              <xs:attribute name="moeda" type="xs:string" use="required"/>
+            </xs:extension>
+          </xs:simpleContent>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="calorias" type="xs:integer"/>
+      <xs:element name="tempoPreparo" type="xs:string"/>
+    </xs:sequence>
+    <xs:attribute name="id" type="xs:integer" use="required"/>
+  </xs:complexType>
+
+  <!-- Restrição para preço com duas casas decimais -->
+  <xs:simpleType name="PrecoType">
+    <xs:restriction base="xs:decimal">
+      <xs:pattern value="\d+\.\d{2}"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+</xs:schema>

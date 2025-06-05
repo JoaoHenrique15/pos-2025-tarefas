@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
 
-  <!-- Elemento raiz -->
   <xs:element name="cardapio">
     <xs:complexType>
       <xs:sequence>
@@ -10,7 +9,6 @@
     </xs:complexType>
   </xs:element>
 
-  <!-- Tipo complexo para o elemento prato -->
   <xs:complexType name="PratoType">
     <xs:sequence>
       <xs:element name="nome" type="xs:string"/>
@@ -37,7 +35,6 @@
     <xs:attribute name="id" type="xs:integer" use="required"/>
   </xs:complexType>
 
-  <!-- Restrição para preço com duas casas decimais -->
   <xs:simpleType name="PrecoType">
     <xs:restriction base="xs:decimal">
       <xs:pattern value="\d+\.\d{2}"/>

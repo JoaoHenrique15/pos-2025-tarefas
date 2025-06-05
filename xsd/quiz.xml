@@ -1,0 +1,61 @@
+<quiz versao="1.0">
+    <disciplina>Matemática</disciplina>
+    <professor>
+        <nome>Gabriel</nome>
+        <matrícula>123456</matrícula>
+    </professor>
+    <turma>3B</turma>
+    <data>2025-05-29</data>
+    <questões>
+        <questão>
+            <enunciado>Qual é o resultado de 2 + 2?</enunciado>
+            <pontuação>1</pontuação>
+            <alternativas>
+                <alternativa correta="nao">3</alternativa>
+                <alternativa correta="sim">4</alternativa>
+                <alternativa correta="nao">5</alternativa>
+                <alternativa correta="nao">6</alternativa>
+            </alternativas>
+        </questão>
+        <questão>
+            <enunciado>Quanto é 10 dividido por 2?</enunciado>
+            <pontuação>1</pontuação>
+            <alternativas>
+                <alternativa correta="nao">2</alternativa>
+                <alternativa correta="sim">5</alternativa>
+                <alternativa correta="nao">10</alternativa>
+                <alternativa correta="nao">20</alternativa>
+            </alternativas>
+        </questão>
+        <questão>
+            <enunciado>Qual é a raiz quadrada de 16?</enunciado>
+            <pontuação>1</pontuação>
+            <alternativas>
+                <alternativa correta="nao">3</alternativa>
+                <alternativa correta="sim">4</alternativa>
+                <alternativa correta="nao">5</alternativa>
+                <alternativa correta="nao">6</alternativa>
+            </alternativas>
+        </questão>
+        <questão>
+            <enunciado>Qual número é primo?</enunciado>
+            <pontuação>1</pontuação>
+            <alternativas>
+                <alternativa correta="nao">4</alternativa>
+                <alternativa correta="nao">6</alternativa>
+                <alternativa correta="sim">7</alternativa>
+                <alternativa correta="nao">8</alternativa>
+            </alternativas>
+        </questão>
+        <questão>
+            <enunciado>Quanto é 5 × 5?</enunciado>
+            <pontuação>1</pontuação>
+            <alternativas>
+                <alternativa correta="nao">10</alternativa>
+                <alternativa correta="nao">15</alternativa>
+                <alternativa correta="sim">25</alternativa>
+                <alternativa correta="nao">30</alternativa>
+            </alternativas>
+        </questão>
+    </questões>
+</quiz>

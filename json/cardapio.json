@@ -1,0 +1,39 @@
+{
+    "cardapio": {
+      "prato": [
+        {
+          "id": "1",
+          "nome": "Filé Mignon ao Molho Madeira",
+          "descricao": "Filé mignon grelhado servido com molho madeira e champignons",
+          "ingredientes": {
+            "ingrediente": [
+              "Filé mignon", "Vinho madeira", "Champignon", "Cebola", "Alho", "Manteiga"
+            ]
+          },
+          "preco": {
+            "moeda": "BRL",
+            "valor": "69.90"
+          },
+          "calorias": "750",
+          "tempoPreparo": "30"
+        },
+        {
+          "id": "2",
+          "nome": "Lasanha à Bolonhesa",
+          "descricao": "Clássica lasanha com carne moída, molho de tomate e queijo gratinado",
+          "ingredientes": {
+            "ingrediente": [
+              "Carne moída", "Massa de lasanha", "Molho de tomate", "Queijo mussarela", "Parmesão"
+            ]
+          },
+          "preco": {
+            "moeda": "BRL",
+            "valor": "44.50"
+          },
+          "calorias": "920",
+          "tempoPreparo": "45"
+        }
+      ]
+    }
+  }
+  

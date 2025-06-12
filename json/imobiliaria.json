@@ -1,0 +1,46 @@
+{
+    "imobiliaria": {
+      "imovel": [
+        {
+          "descricao": "Apartamento com vista para o mar",
+          "proprietario": {
+            "nome": "João Silva",
+            "telefone": ["11988887777", "11999996666"],
+            "email": "joao@gmail.com"
+          },
+          "endereco": {
+            "rua": "Av. Atlântica",
+            "bairro": "Copacabana",
+            "cidade": "Rio de Janeiro",
+            "numero": "1020"
+          },
+          "caracteristicas": {
+            "tamanho": "90",
+            "numQuartos": "3",
+            "numBanheiros": "2"
+          },
+          "valor": "950000"
+        },
+        {
+          "descricao": "Casa térrea com quintal amplo",
+          "proprietario": {
+            "nome": "Maria Oliveira",
+            "telefone": "21988885555"
+          },
+          "endereco": {
+            "rua": "Rua das Palmeiras",
+            "bairro": "Jardins",
+            "cidade": "São Paulo",
+            "numero": "45"
+          },
+          "caracteristicas": {
+            "tamanho": "120",
+            "numQuartos": "4",
+            "numBanheiros": "3"
+          },
+          "valor": "1300000"
+        }
+      ]
+    }
+  }
+  

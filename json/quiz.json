@@ -1,0 +1,41 @@
+{
+    "quiz": {
+      "versao": "1.0",
+      "disciplina": "Matemática",
+      "professor": {
+        "nome": "Gabriel",
+        "matrícula": "123456"
+      },
+      "turma": "3B",
+      "data": "2025-05-29",
+      "questões": {
+        "questão": [
+          {
+            "enunciado": "Qual é o resultado de 2 + 2?",
+            "pontuação": "1",
+            "alternativas": {
+              "alternativa": [
+                { "valor": "3", "correta": "nao" },
+                { "valor": "4", "correta": "sim" },
+                { "valor": "5", "correta": "nao" },
+                { "valor": "6", "correta": "nao" }
+              ]
+            }
+          },
+          {
+            "enunciado": "Quanto é 10 dividido por 2?",
+            "pontuação": "1",
+            "alternativas": {
+              "alternativa": [
+                { "valor": "2", "correta": "nao" },
+                { "valor": "5", "correta": "sim" },
+                { "valor": "10", "correta": "nao" },
+                { "valor": "20", "correta": "nao" }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  }
+  

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cardapio>
+  <prato id="1">
+    <nome>Filé Mignon ao Molho Madeira</nome>
+    <descricao>Filé mignon grelhado com molho madeira e champignons</descricao>
+    <ingredientes>
+      <ingrediente>Filé mignon</ingrediente>
+      <ingrediente>Vinho madeira</ingrediente>
+      <ingrediente>Champignon</ingrediente>
+      <ingrediente>Cebola</ingrediente>
+      <ingrediente>Alho</ingrediente>
+    </ingredientes>
+    <preco>69.90</preco>
+    <calorias>750</calorias>
+    <tempoPreparo>30</tempoPreparo>
+  </prato>
+  <prato id="2">
+    <nome>Lasanha à Bolonhesa</nome>
+    <descricao>Lasanha com molho bolonhesa e queijo gratinado</descricao>
+    <ingredientes>
+      <ingrediente>Massa</ingrediente>
+      <ingrediente>Molho bolonhesa</ingrediente>
+      <ingrediente>Queijo</ingrediente>
+    </ingredientes>
+    <preco>44.50</preco>
+    <calorias>920</calorias>
+    <tempoPreparo>45</tempoPreparo>
+  </prato>
+  <prato id="3">
+    <nome>Salada Caesar</nome>
+    <descricao>Salada com alface, frango grelhado e molho caesar</descricao>
+    <ingredientes>
+      <ingrediente>Alface</ingrediente>
+      <ingrediente>Frango</ingrediente>
+      <ingrediente>Molho Caesar</ingrediente>
+    </ingredientes>
+    <preco>29.90</preco>
+    <calorias>320</calorias>
+    <tempoPreparo>15</tempoPreparo>
+  </prato>
+</cardapio>

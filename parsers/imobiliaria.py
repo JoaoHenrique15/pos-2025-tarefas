@@ -1,7 +1,7 @@
 from xml.dom.minidom import parse
 import json
 
-dom = parse("c:/Users/20221181110003/Documents/tarefas/pos-2025-tarefas/parsers/imobiliaria.xml")
+dom = parse("C:/Users/20221181110003/Documents/tarefas/pos-2025-tarefas/parsers/imobiliaria.xml")
 raiz = dom.documentElement
 imoveis = raiz.getElementsByTagName("imovel")
 
@@ -33,7 +33,7 @@ for imovel in imoveis:
 
     lista_imoveis.append(imovel_json)
 
-with open("imobiliaria.json", "w", encoding="utf-8") as f:
+with open("C:/Users/20221181110003/Documents/tarefas/pos-2025-tarefas/parsers/imobiliaria.json", "w", encoding="utf-8") as f:
     json.dump({"imoveis": lista_imoveis}, f, indent=4, ensure_ascii=False)
 
-print("Arquivo JSON gerado com sucesso!")
+print("Arquivo imobiliaria.json gerado com sucesso!")

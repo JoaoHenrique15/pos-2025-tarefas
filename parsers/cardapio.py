@@ -1,6 +1,6 @@
 from xml.dom import minidom
 
-doc = minidom.parse("cardapio.xml")
+doc = minidom.parse("c:/Users/20221181110003/Documents/tarefas/pos-2025-tarefas/parsers/cardapio.xml")
 
 pratos = doc.getElementsByTagName("prato")
 

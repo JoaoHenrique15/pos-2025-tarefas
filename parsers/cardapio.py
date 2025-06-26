@@ -1,35 +1,34 @@
-from xml.dom import minidom
+from xml.dom.minidom import parse
 
-doc = minidom.parse("c:/Users/20221181110003/Documents/tarefas/pos-2025-tarefas/parsers/cardapio.xml")
+dom = parse("c:/Users/20221181110003/Documents/tarefas/pos-2025-tarefas/parsers/cardapio.xml")
+cardapio = dom.documentElement
 
-pratos = doc.getElementsByTagName("prato")
+pratos = cardapio.getElementsByTagName("prato")
+mapa_pratos = {}
 
-print("MENU - Selecione um ID para ver detalhes:\n")
-
+print("\n=== MENU ===")
 for prato in pratos:
-    id_ = prato.getAttribute("id")
+    id_prato = prato.getAttribute("id").replace("p", "")
     nome = prato.getElementsByTagName("nome")[0].firstChild.nodeValue
-    print(f"{id_}: {nome}")
+    mapa_pratos[id_prato] = prato
+    print(f"{id_prato} - {nome}")
 
-escolha = input("\nDigite o ID do prato: ")
+escolha = input("\nDigite o id do prato para saber mais: ")
 
-for prato in pratos:
-    if prato.getAttribute("id") == escolha:
-        nome = prato.getElementsByTagName("nome")[0].firstChild.nodeValue
-        descricao = prato.getElementsByTagName("descricao")[0].firstChild.nodeValue
-        ingredientes = prato.getElementsByTagName("ingrediente")
-        preco = prato.getElementsByTagName("preco")[0].firstChild.nodeValue
-        calorias = prato.getElementsByTagName("calorias")[0].firstChild.nodeValue
-        tempo = prato.getElementsByTagName("tempoPreparo")[0].firstChild.nodeValue
+if escolha in mapa_pratos:
+    prato = mapa_pratos[escolha]
+    nome = prato.getElementsByTagName("nome")[0].firstChild.nodeValue
+    descricao = prato.getElementsByTagName("descricao")[0].firstChild.nodeValue
+    ingredientes = prato.getElementsByTagName("ingrediente")
+    preco = prato.getElementsByTagName("preco")[0].firstChild.nodeValue
+    calorias = prato.getElementsByTagName("calorias")[0].firstChild.nodeValue
+    tempo = prato.getElementsByTagName("tempoPreparo")[0].firstChild.nodeValue
 
-        print(f"\nNome: {nome}")
-        print(f"Descrição: {descricao}")
-        print("Ingredientes:")
-        for ing in ingredientes:
-            print(f" - {ing.firstChild.nodeValue}")
-        print(f"Preço: R$ {preco}")
-        print(f"Calorias: {calorias}")
-        print(f"Tempo de Preparo: {tempo} minutos")
-        break
-else:
-    print("ID não encontrado.")
+    print(f"\nNome: {nome}")
+    print(f"Descrição: {descricao}")
+    print("Ingredientes:")
+    for ingrediente in ingredientes:
+        print(f" - {ingrediente.firstChild.nodeValue}")
+    print(f"Preço: R${preco}")
+    print(f"Calorias: {calorias} kcal")
+
